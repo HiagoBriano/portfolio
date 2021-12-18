@@ -37,7 +37,8 @@ header {
   margin-top: 20px;
 }
 
-.Header--Nav p:hover {
+.Header--Nav p:hover,
+.Header--Nav a:hover {
   color: rgb(111, 181, 241);
 }
 
