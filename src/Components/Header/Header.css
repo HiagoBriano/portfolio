@@ -1,0 +1,46 @@
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+  background: transparent;
+  transition: all ease 0.5s;
+}
+
+.Header--black {
+  background-color: #141414;
+}
+
+.Header--Logo {
+  height: 30px;
+}
+
+.Header--Logo img {
+  height: 100%;
+}
+
+.Header--Nav {
+  display: flex;
+}
+
+.Header--Nav p,
+.Header--Nav a {
+  color: aliceblue;
+  padding: 0 10px;
+  transition: all ease 0.2s;
+  margin-top: 20px;
+}
+
+.Header--Nav p:hover {
+  color: rgb(111, 181, 241);
+}
+
+.home--nome {
+  font-weight: bold;
+}

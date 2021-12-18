@@ -1,0 +1,24 @@
+.home {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./Images/background-home.jpg);
+  display: flex;
+  align-items: center;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.home--nome {
+  color: #ffffff;
+  font-size: 55px;
+}
+
+.apresentacao h3 {
+  font-size: 40px;
+  color: rgb(84, 143, 194);
+}
