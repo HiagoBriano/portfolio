@@ -22,3 +22,17 @@
   font-size: 40px;
   color: rgb(84, 143, 194);
 }
+
+@media (max-width: 600px) {
+  .home--nome {
+    font-size: 30px;
+  }
+
+  .apresentacao h3 {
+    font-size: 20px;
+  }
+
+  .apresentacao {
+    margin-left: 10%;
+  }
+}
