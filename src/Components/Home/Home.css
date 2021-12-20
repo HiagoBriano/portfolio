@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .home {
   height: 100vh;
   background-size: cover;
@@ -16,9 +18,11 @@
 .home--nome {
   color: #ffffff;
   font-size: 55px;
+  font-weight: bold;
 }
 
 .apresentacao h3 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   color: rgb(84, 143, 194);
 }
@@ -36,3 +40,41 @@
     margin-left: 10%;
   }
 }
+
+/* animação */
+
+.home--cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+
+.home--typing {
+  animation: none;
+}
+
+.home-textAnimado {
+  color: #ffffff;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+
+/* fazer ficar trocando a palavra: https://www.cupcom.com.br/programacao/15-efeitos-de-digitacao-de-texto-com-css.html */
