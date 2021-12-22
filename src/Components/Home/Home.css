@@ -7,6 +7,7 @@
   background-image: url(./Images/background-home.jpg);
   display: flex;
   align-items: center;
+  /* flex-direction: column; */
 }
 
 .apresentacao {
@@ -27,21 +28,7 @@
   color: rgb(84, 143, 194);
 }
 
-@media (max-width: 600px) {
-  .home--nome {
-    font-size: 30px;
-  }
-
-  .apresentacao h3 {
-    font-size: 20px;
-  }
-
-  .apresentacao {
-    margin-left: 10%;
-  }
-}
-
-/* animação */
+/* animação escrita*/
 
 .home--cursor {
   display: inline-block;
@@ -74,6 +61,66 @@
   }
   100% {
     background-color: #ccc;
+  }
+}
+
+/* animação avançar */
+
+.avancar {
+  /* animation: glitch 1s linear infinite; */
+  position: absolute;
+  bottom: 75px;
+  right: 40px;
+  color: #ffffff;
+  text-decoration: none;
+  transform: rotate(90deg);
+}
+
+.avancar:hover {
+  color: rgb(111, 181, 241);
+}
+
+.avancar--seta {
+  animation: glitch 1s linear infinite;
+  position: absolute;
+  margin-left: 10px;
+  /* text-decoration: none; */
+}
+
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .home--nome {
+    font-size: 30px;
+  }
+
+  .apresentacao h3 {
+    font-size: 20px;
+  }
+
+  .apresentacao {
+    margin-left: 10%;
+  }
+
+  .avancar {
+    position: absolute;
+    bottom: 75px;
+    right: 15px;
+    color: #ffffff;
+    font-size: 10px;
+    transform: rotate(90deg);
   }
 }
 

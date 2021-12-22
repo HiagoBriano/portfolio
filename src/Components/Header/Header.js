@@ -42,32 +42,33 @@ export default class Header extends Component {
           </button>
           <ul className="Header--menu" role="menu">
             <li>
-              <a href="#" rel="noreferrer">
+              <a href="#home" className="Header--link" rel="noreferrer">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" rel="noreferrer">
+              <a href="#about" className="Header--link" rel="noreferrer">
                 Sobre
               </a>
             </li>
             <li>
-              <a href="#" rel="noreferrer">
+              <a href="#" className="Header--link" rel="noreferrer">
                 Serviços
               </a>
             </li>
             <li>
-              <a href="#" rel="noreferrer">
+              <a href="#" className="Header--link" rel="noreferrer">
                 Portfólio
               </a>
             </li>
             <li>
-              <a href="#" rel="noreferrer">
+              <a href="#" className="Header--link" rel="noreferrer">
                 Contato
               </a>
             </li>
             <li className="Header--icone">
               <a
+                className="Header--link"
                 href="https://www.linkedin.com/in/hiago-briano/"
                 target="_blank"
                 rel="noreferrer"
@@ -86,6 +87,7 @@ export default class Header extends Component {
             </li>
             <li className="Header--icone">
               <a
+                className="Header--link"
                 href="https://github.com/HiagoBriano"
                 target="_blank"
                 rel="noreferrer"

@@ -83,23 +83,33 @@ export default class Home extends Component {
   render() {
     const { typing, text } = this.state;
     return (
-      <section className="home">
-        <div className="apresentacao">
-          <h2 className="home--nome">Hiago Briano da Silva</h2>
-          <h3>Desenvolvedor Web</h3>
-          <h3>Programador JavaScript</h3>
+      <>
+        <section id="home" className="home">
+          <div className="apresentacao">
+            <h2 className="home--nome">Hiago Briano da Silva</h2>
+            <h3>Desenvolvedor Web</h3>
+            <h3>Programador JavaScript</h3>
 
-          <h3>
-            Tenho conhecimento em
-            <span className="home-textAnimado">{` ${text}`}</span>
-            <span
-              className={typing ? 'home--cursor home--typing' : 'home--cursor'}
-            >
-              &nbsp;
-            </span>
-          </h3>
-        </div>
-      </section>
+            <h3>
+              Tenho conhecimento em
+              <span className="home-textAnimado">{` ${text}`}</span>
+              <span
+                className={
+                  typing ? 'home--cursor home--typing' : 'home--cursor'
+                }
+              >
+                &nbsp;
+              </span>
+            </h3>
+          </div>
+        </section>
+        {/* <div className="avancar">
+          AVANÇAR <span className="avancar--seta"> >></span>
+        </div> */}
+        <a href="#" className="avancar" rel="noreferrer">
+          AVANÇAR<span className="avancar--seta"> >></span>
+        </a>
+      </>
     );
   }
 }

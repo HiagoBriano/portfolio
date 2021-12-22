@@ -30,14 +30,14 @@ header {
   margin-top: 20px;
 }
 
-.Header--menu a {
+.Header--link {
   color: aliceblue;
   padding: 0 10px;
   transition: all ease 0.4s;
   text-decoration: none;
 }
 
-.Header--menu a:hover {
+.Header--link:hover {
   color: rgb(111, 181, 241);
 }
 
