@@ -1,9 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 .about {
-  /* height: calc(100vh-70px); */
   height: calc(100vh - 70px);
   background-color: rgb(12, 7, 7);
 
-  /* flex-direction: column; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about--conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about--texto {
+  max-width: 500px;
+  margin-left: 50px;
+}
+
+.about--h3 {
+  color: rgb(71, 133, 190);
+  font-family: 'Russo One', sans-serif;
+  margin: 30px 10px 15px 10px;
+}
+
+.about--texto p {
+  color: azure;
+}
+
+@media (max-width: 768px) {
+  .about--conteudo {
+    margin: 10px 20px 30px -20px;
+  }
+
+  .about--conteudo img {
+    display: none;
+  }
+
+  .about--texto {
+    width: auto;
+  }
+
+  .about {
+    height: auto;
+  }
+
+  .about--h3 {
+    margin: 30px 10px 15px 10px;
+  }
 }

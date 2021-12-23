@@ -13,7 +13,7 @@
 .apresentacao {
   display: flex;
   flex-direction: column;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .home--nome {
@@ -111,7 +111,8 @@
   }
 
   .apresentacao {
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .avancar {

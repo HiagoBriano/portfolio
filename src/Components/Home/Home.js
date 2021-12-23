@@ -106,7 +106,7 @@ export default class Home extends Component {
         {/* <div className="avancar">
           AVANÇAR <span className="avancar--seta"> >></span>
         </div> */}
-        <a href="#" className="avancar" rel="noreferrer">
+        <a href="#about" className="avancar" rel="noreferrer">
           AVANÇAR<span className="avancar--seta"> >></span>
         </a>
       </>
