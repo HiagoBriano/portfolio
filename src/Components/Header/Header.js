@@ -27,7 +27,9 @@ export default class Header extends Component {
     return (
       <header className={headerBack ? 'Header--black' : 'Header--menu--mobie'}>
         <div className="Header--Logo">
-          <img src={Logo} alt="Logo" />
+          <a href="#home" rel="noreferrer">
+            <img src={Logo} alt="Logo" />
+          </a>
         </div>
         <nav className={mobileMenu ? 'Header--Nav active' : 'Header--Nav'}>
           <button
@@ -42,27 +44,27 @@ export default class Header extends Component {
           </button>
           <ul className="Header--menu" role="menu">
             <li>
-              <a href="#home" className="Header--link" rel="noreferrer">
+              <a href="#home" className="Header--link">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="Header--link" rel="noreferrer">
+              <a href="#about" className="Header--link">
                 Sobre
               </a>
             </li>
             <li>
-              <a href="#" className="Header--link" rel="noreferrer">
+              <a href="#home" className="Header--link">
                 Serviços
               </a>
             </li>
             <li>
-              <a href="#" className="Header--link" rel="noreferrer">
+              <a href="#home" className="Header--link">
                 Portfólio
               </a>
             </li>
             <li>
-              <a href="#" className="Header--link" rel="noreferrer">
+              <a href="#home" className="Header--link">
                 Contato
               </a>
             </li>

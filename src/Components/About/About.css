@@ -10,10 +10,21 @@
   flex-direction: column;
 }
 
+.about--conteudo img {
+  max-width: 430px;
+  height: auto;
+  margin-top: -50px;
+}
+
 .about--conteudo {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about--contato {
+  display: flex;
+  justify-content: space-between;
 }
 
 .about--texto {

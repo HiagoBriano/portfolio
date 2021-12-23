@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './About.css';
-import fotoHiago from './Images/Foto-hiago.jpg';
+import fotoHiago from './Images/Foto-hiago.png';
 
 export default class About extends Component {
   render() {
@@ -11,29 +11,34 @@ export default class About extends Component {
           <img src={fotoHiago} alt="foto do desenvolvedor" height="450px" />
           <div className="about--texto">
             <p>
-              Sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre
-              mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim
-              sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre
-              mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim
-              sobre mim sobre mim sobre mim sobre sobre mim sobre mim sobre mim
-              sobre
+              Sou formado em Redes de Computadores pela Universidade Nove de
+              Julho (UNINOVE).
             </p>
             <p>
-              Sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre
-              mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim
-              sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre
-              mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim
-              sobre mim sobre mim sobre mim sobre sobre mim sobre mim sobre mim
-              sobre
+              Estudo Desenvolvimento Web na Trybe, uma renomada escola que
+              ensina a programar, a aprender e a trabalhar, onde concorri com
+              mais de 11 mil pessoas para entrar na turma 16 e fui uns dos 300
+              selecionados.
             </p>
             <p>
-              Sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre
-              mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim
-              sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre
-              mim sobre mim sobre mim sobre mim sobre mim sobre mim sobre mim
-              sobre mim sobre mim sobre mim sobre sobre mim sobre mim sobre mim
-              sobre
+              Hoje estou no segundo módulo do curso (Desenvolvimento Front-end),
+              e estou aprendendo sobre Redux, até aqui já aprendi sobre GitHub,
+              HTML, CSS, JavaScript, testes unitários e React.
             </p>
+            <p>
+              Me desafio constantemente, valorizando cada experiência adquirida
+              ao longo da jornada e busco sempre aprimorar as minhas habilidades
+              com objetivo de continuar progredindo como pessoa e
+              profissionalmente.
+            </p>
+            <p>
+              Admiro as empresas que incentivam seus colaboradores a buscar o
+              constante aprendizado e empresas que tenham propósitos sólidos.
+            </p>
+            <div className="about--contato">
+              <p>Telefone / Whatsapp: (11) 95461-4351 </p>
+              <p>Jandira - SP</p>
+            </div>
           </div>
         </div>
       </section>
