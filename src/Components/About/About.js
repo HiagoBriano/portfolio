@@ -5,7 +5,7 @@ import fotoHiago from './Images/Foto-hiago.png';
 export default class About extends Component {
   render() {
     return (
-      <section id="about" className="about">
+      <section className="about" id="about">
         <h3 className="about--h3">Sobre Mim</h3>
         <div className="about--conteudo">
           <img src={fotoHiago} alt="foto do desenvolvedor" height="450px" />

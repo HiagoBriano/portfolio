@@ -54,12 +54,7 @@ export default class Header extends Component {
               </a>
             </li>
             <li>
-              <a href="#home" className="Header--link">
-                Serviços
-              </a>
-            </li>
-            <li>
-              <a href="#home" className="Header--link">
+              <a href="#portfolio" className="Header--link">
                 Portfólio
               </a>
             </li>

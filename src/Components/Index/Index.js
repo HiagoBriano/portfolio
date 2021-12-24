@@ -2,6 +2,7 @@ import { Component } from 'react';
 import About from '../About/About';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
+import Portfolio from '../portfolio/Portfolio';
 
 export default class Index extends Component {
   constructor() {
@@ -35,6 +36,7 @@ export default class Index extends Component {
         <Header headerBack={headerBack} />
         <Home />
         <About />
+        <Portfolio />
       </>
     );
   }

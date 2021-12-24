@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.portfolio {
+  /* height: calc(100vh - 70px); */
+  background-color: #3f3f3f;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.portfolio--h3 {
+  color: rgb(71, 133, 190);
+  font-family: 'Russo One', sans-serif;
+  margin: 30px 10px 15px 10px;
+}
+
+.portfolio--imagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+}
+
+.portfolio--imagem {
+  height: 200px;
+  width: auto;
+  border-radius: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+}
+
+@media (max-width: 768px) {
+}
