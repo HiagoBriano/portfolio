@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.footer {
+  height: 40px;
+  background-color: rgb(204, 204, 204);
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  margin-top: 7px;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+}

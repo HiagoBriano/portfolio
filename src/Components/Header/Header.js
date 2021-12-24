@@ -59,7 +59,7 @@ export default class Header extends Component {
               </a>
             </li>
             <li>
-              <a href="#home" className="Header--link">
+              <a href="#contato" className="Header--link">
                 Contato
               </a>
             </li>

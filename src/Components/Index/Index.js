@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import About from '../About/About';
+import Contato from '../Contato/Contato';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
 import Portfolio from '../portfolio/Portfolio';
@@ -37,6 +39,8 @@ export default class Index extends Component {
         <Home />
         <About />
         <Portfolio />
+        <Contato />
+        <Footer />
       </>
     );
   }
