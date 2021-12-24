@@ -117,8 +117,7 @@ header {
   }
 
   nav.active .Header--menu {
-    height: 300px;
-    /* height: calc(100vh - 70px); */
+    height: 250px;
     visibility: visible;
     overflow-y: auto;
   }

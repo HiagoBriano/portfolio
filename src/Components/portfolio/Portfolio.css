@@ -32,5 +32,19 @@
   margin: 10px 10px 10px 10px;
 }
 
+.portfolio--linkImagem {
+  display: flex;
+  /* flex-direction: column; */
+  text-align: center;
+  justify-content: space-around;
+  /* margin-top: -100px; */
+}
+
+.portfolio--linkImagem a {
+  text-decoration: none;
+  color: aqua;
+  margin: 10px;
+}
+
 @media (max-width: 768px) {
 }
