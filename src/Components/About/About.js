@@ -21,19 +21,19 @@ export default class About extends Component {
               selecionados.
             </p>
             <p>
-              Hoje estou no segundo módulo do curso (Desenvolvimento Front-end),
+              Hoje curso o terceiro módulo do curso (Desenvolvimento Back-end),
               e estou aprendendo sobre Redux, até aqui já aprendi sobre GitHub,
-              HTML, CSS, JavaScript, testes unitários e React.
+              HTML, CSS, JavaScript, testes unitários, React, Redux e Context.
             </p>
             <p>
               Me desafio constantemente, valorizando cada experiência adquirida
-              ao longo da jornada e busco sempre aprimorar as minhas habilidades
-              com objetivo de continuar progredindo como pessoa e
-              profissionalmente.
+              ao longo da jornada e busco sempre aprimorar as minhas
+              habilidades, tendo como objetivo continuar progredindo como pessoa
+              e profissionalmente.
             </p>
             <p>
               Admiro as empresas que incentivam seus colaboradores a buscar o
-              constante aprendizado e empresas que tenham propósitos sólidos.
+              constante aprendizado, e empresas que tenham propósitos sólidos.
             </p>
             <div className="about--contato">
               <p>Telefone / Whatsapp: (11) 95461-4351 </p>

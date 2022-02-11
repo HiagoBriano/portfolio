@@ -103,11 +103,8 @@ export default class Home extends Component {
             </h3>
           </div>
         </section>
-        {/* <div className="avancar">
-          AVANÇAR <span className="avancar--seta"> >></span>
-        </div> */}
         <a href="#about" className="avancar" rel="noreferrer">
-          AVANÇAR<span className="avancar--seta"> >></span>
+          AVANÇAR<span className="avancar--seta"> {'>>'} </span>
         </a>
       </>
     );

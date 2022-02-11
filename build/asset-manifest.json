@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4c509c90.css",
-    "main.js": "/portfolio/static/js/main.dc743119.js",
+    "main.css": "/portfolio/static/css/main.18533032.css",
+    "main.js": "/portfolio/static/js/main.60d952ae.js",
+    "static/media/4.gif": "/portfolio/static/media/4.e67d76a03f9e0af33a5b.gif",
+    "static/media/3.gif": "/portfolio/static/media/3.df848dbf2faa5ded41f6.gif",
+    "static/media/2.gif": "/portfolio/static/media/2.a0fe467490cbab17eb45.gif",
+    "static/media/1.png": "/portfolio/static/media/1.dc7b2a92c8eda792afa7.png",
     "static/media/Foto-hiago.png": "/portfolio/static/media/Foto-hiago.1fc28b25136805750ac3.png",
-    "static/media/6.png": "/portfolio/static/media/6.ca9267707c5f6f933665.png",
-    "static/media/5.png": "/portfolio/static/media/5.b3cab8569253aec2bdd0.png",
-    "static/media/3.png": "/portfolio/static/media/3.ab056bd8c1bf1073903d.png",
-    "static/media/2.png": "/portfolio/static/media/2.0d56301cd610f6363703.png",
-    "static/media/4.png": "/portfolio/static/media/4.d62c31828d87f2482779.png",
-    "static/media/1.png": "/portfolio/static/media/1.84bb568564c5b8c0571d.png",
     "static/media/background-home.jpg": "/portfolio/static/media/background-home.c86d499bf2775293359d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.4c509c90.css.map": "/portfolio/static/css/main.4c509c90.css.map",
-    "main.dc743119.js.map": "/portfolio/static/js/main.dc743119.js.map"
+    "main.18533032.css.map": "/portfolio/static/css/main.18533032.css.map",
+    "main.60d952ae.js.map": "/portfolio/static/js/main.60d952ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c509c90.css",
-    "static/js/main.dc743119.js"
+    "static/css/main.18533032.css",
+    "static/js/main.60d952ae.js"
   ]
 }

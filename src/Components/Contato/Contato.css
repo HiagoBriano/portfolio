@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 .contato {
-  /* height: calc(100vh - 70px); */
   background-color: rgb(12, 7, 7);
 
   display: flex;
