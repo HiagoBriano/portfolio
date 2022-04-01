@@ -22,7 +22,7 @@ export default class About extends Component {
             </p>
             <p>
               Hoje curso o terceiro módulo do curso (Desenvolvimento Back-end),
-              e estou aprendendo sobre Redux, até aqui já aprendi sobre GitHub,
+              e estou aprendendo sobre Node, SQL e Docker, até aqui já aprendi sobre GitHub,
               HTML, CSS, JavaScript, testes unitários, React, Redux e Context.
             </p>
             <p>

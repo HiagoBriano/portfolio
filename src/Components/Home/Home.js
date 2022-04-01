@@ -6,7 +6,7 @@ export default class Home extends Component {
     super();
 
     this.state = {
-      textArray: ['React', 'GitHub', 'CSS'],
+      textArray: ['React', 'GitHub', 'CSS', 'Node', 'Docker', 'SQL'],
       typingDelay: 200,
       erasingDelay: 100,
       newTextDelay: 2000, // Delay between current and next text
