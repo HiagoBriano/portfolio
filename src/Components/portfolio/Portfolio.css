@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 .portfolio {
+  scroll-margin-top: 70px;
   background-color: #3f3f3f;
 
   display: flex;
@@ -44,4 +45,5 @@
 }
 
 @media (max-width: 768px) {
+  
 }
