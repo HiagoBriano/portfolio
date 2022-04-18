@@ -1,14 +1,23 @@
 import { Component } from 'react';
-import './Portfolio.css';
-
 import Imagem1 from './Images/1.png';
 import Imagem2 from './Images/2.gif';
 import Imagem3 from './Images/3.gif';
 import Imagem4 from './Images/4.gif';
+import Imagem5 from './Images/5.gif';
+import './Portfolio.css';
+
 
 export default class Portfolio extends Component {
   render() {
     const fotos = [
+      {
+        nome: 'Projeto Receitas',
+        fonte: Imagem5,
+        feito: '23/03/2022',
+        web: 'https://hiagobriano.github.io/Projeto-Receitas/',
+        codigo:
+          'https://github.com/HiagoBriano/Projeto-Receitas',
+      },
       {
         nome: 'Front End Online Store',
         fonte: Imagem3,
