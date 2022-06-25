@@ -4,6 +4,7 @@ import Imagem2 from './Images/2.gif';
 import Imagem3 from './Images/3.gif';
 import Imagem4 from './Images/4.gif';
 import Imagem5 from './Images/5.gif';
+import Imagem6 from './Images/6.gif';
 import './Portfolio.css';
 
 
@@ -11,12 +12,18 @@ export default class Portfolio extends Component {
   render() {
     const fotos = [
       {
+        nome: 'Hzc Life Is',
+        fonte: Imagem6,
+        feito: '25/06/2022',
+        web: 'https://hiagobriano.github.io/hzc-life-is/',
+        codigo: 'https://github.com/HiagoBriano/hzc-life-is',
+      },
+      {
         nome: 'Projeto Receitas',
         fonte: Imagem5,
         feito: '23/03/2022',
         web: 'https://hiagobriano.github.io/Projeto-Receitas/',
-        codigo:
-          'https://github.com/HiagoBriano/Projeto-Receitas',
+        codigo: 'https://github.com/HiagoBriano/Projeto-Receitas',
       },
       {
         nome: 'Front End Online Store',
