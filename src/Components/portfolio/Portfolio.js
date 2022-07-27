@@ -1,10 +1,10 @@
 import { Component } from 'react';
 import Imagem1 from './Images/1.png';
-import Imagem2 from './Images/2.gif';
 import Imagem3 from './Images/3.gif';
 import Imagem4 from './Images/4.gif';
 import Imagem5 from './Images/5.gif';
-import Imagem6 from './Images/6.gif';
+import Imagem7 from './Images/7.gif';
+import Imagem8 from './Images/8.gif';
 import './Portfolio.css';
 
 
@@ -12,11 +12,18 @@ export default class Portfolio extends Component {
   render() {
     const fotos = [
       {
-        nome: 'Hzc Life Is',
-        fonte: Imagem6,
-        feito: '25/06/2022',
-        web: 'https://hiagobriano.github.io/hzc-life-is/',
-        codigo: 'https://github.com/HiagoBriano/hzc-life-is',
+        nome: 'Delivery App',
+        fonte: Imagem7,
+        feito: '25/07/2022',
+        web: 'https://hiagobriano.github.io/Delivery_app_deploy_front',
+        codigo: 'https://github.com/HiagoBriano/Delivery_App',
+      },
+      {
+        nome: 'Projeto Todo List',
+        fonte: Imagem8,
+        feito: '01/07/2022',
+        web: 'https://hiagobriano.github.io/frontend_to-do_list-/',
+        codigo: 'https://github.com/HiagoBriano/to-do_list',
       },
       {
         nome: 'Projeto Receitas',
@@ -39,15 +46,6 @@ export default class Portfolio extends Component {
         web: 'https://hiagobriano.github.io/projeto_trybewarts/',
         codigo:
           'https://github.com/HiagoBriano/HiagoBriano.github.io/tree/master/projeto_trybewarts',
-      },
-
-      {
-        nome: 'Projeto Todo List',
-        fonte: Imagem2,
-        feito: '13/09/2021',
-        web: 'https://hiagobriano.github.io/projeto_todo_list/',
-        codigo:
-          'https://github.com/HiagoBriano/HiagoBriano.github.io/tree/master/projeto_todo_list',
       },
       {
         nome: 'Pixels Art',
