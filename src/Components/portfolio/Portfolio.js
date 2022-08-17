@@ -15,14 +15,14 @@ export default class Portfolio extends Component {
         nome: 'Delivery App',
         fonte: Imagem7,
         feito: '25/07/2022',
-        web: 'https://hiagobriano.github.io/Delivery_app_deploy_front',
+        web: 'https://delivery-app-sage.vercel.app/',
         codigo: 'https://github.com/HiagoBriano/Delivery_App',
       },
       {
         nome: 'Projeto Todo List',
         fonte: Imagem8,
         feito: '01/07/2022',
-        web: 'https://hiagobriano.github.io/frontend_to-do_list-/',
+        web: 'https://to-do-list-nine-chi.vercel.app/',
         codigo: 'https://github.com/HiagoBriano/to-do_list',
       },
       {
