@@ -15,15 +15,14 @@ export default class About extends Component {
               Julho (UNINOVE).
             </p>
             <p>
-              Estudo Desenvolvimento Web na Trybe, uma renomada escola que
+              Estudei Desenvolvimento Web na Trybe, uma renomada escola que
               ensina a programar, a aprender e a trabalhar, onde concorri com
               mais de 11 mil pessoas para entrar na turma 16 e fui uns dos 300
               selecionados.
             </p>
             <p>
-              Hoje curso o terceiro módulo do curso (Desenvolvimento Back-end),
-              e estou aprendendo sobre Node, SQL e Docker, até aqui já aprendi sobre GitHub,
-              HTML, CSS, JavaScript, testes unitários, React, Redux e Context.
+              Tenho conhecimento nas linguagens: JavaScript / TypeScript (React.js e Node.js) e em Golang.
+              Além de conhecimento em SQL, Docker, GitHub, HTML, CSS, JavaScript, testes unitários, React, Redux e Context.
             </p>
             <p>
               Me desafio constantemente, valorizando cada experiência adquirida
