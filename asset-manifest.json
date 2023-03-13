@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.10f33f86.css",
-    "main.js": "/static/js/main.fdcc5090.js",
-    "static/media/5.gif": "/static/media/5.4b199b6733ab9c43d462.gif",
-    "static/media/4.gif": "/static/media/4.e67d76a03f9e0af33a5b.gif",
-    "static/media/3.gif": "/static/media/3.df848dbf2faa5ded41f6.gif",
-    "static/media/7.gif": "/static/media/7.bdbdcbd5a9cb1bdda622.gif",
-    "static/media/8.gif": "/static/media/8.6564b4215b5399d70746.gif",
-    "static/media/1.png": "/static/media/1.dc7b2a92c8eda792afa7.png",
-    "static/media/Foto-hiago.png": "/static/media/Foto-hiago.1fc28b25136805750ac3.png",
-    "static/media/background-home.jpg": "/static/media/background-home.c86d499bf2775293359d.jpg",
-    "index.html": "/index.html",
-    "main.10f33f86.css.map": "/static/css/main.10f33f86.css.map",
-    "main.fdcc5090.js.map": "/static/js/main.fdcc5090.js.map"
+    "main.css": "/portfolio/static/css/main.38e11879.css",
+    "main.js": "/portfolio/static/js/main.d3aa880d.js",
+    "static/media/5.gif": "/portfolio/static/media/5.4b199b6733ab9c43d462.gif",
+    "static/media/4.gif": "/portfolio/static/media/4.e67d76a03f9e0af33a5b.gif",
+    "static/media/3.gif": "/portfolio/static/media/3.df848dbf2faa5ded41f6.gif",
+    "static/media/7.gif": "/portfolio/static/media/7.bdbdcbd5a9cb1bdda622.gif",
+    "static/media/8.gif": "/portfolio/static/media/8.6564b4215b5399d70746.gif",
+    "static/media/1.png": "/portfolio/static/media/1.dc7b2a92c8eda792afa7.png",
+    "static/media/Foto-hiago.png": "/portfolio/static/media/Foto-hiago.1fc28b25136805750ac3.png",
+    "static/media/background-home.jpg": "/portfolio/static/media/background-home.c86d499bf2775293359d.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.38e11879.css.map": "/portfolio/static/css/main.38e11879.css.map",
+    "main.d3aa880d.js.map": "/portfolio/static/js/main.d3aa880d.js.map"
   },
   "entrypoints": [
-    "static/css/main.10f33f86.css",
-    "static/js/main.fdcc5090.js"
+    "static/css/main.38e11879.css",
+    "static/js/main.d3aa880d.js"
   ]
 }
