@@ -101,7 +101,7 @@ export default class Home extends Component {
                 &nbsp;
               </span>
             </h3>
-            <a href="https://drive.google.com/file/d/1k8_PRevyHJocjKt_DR51DXmKFG9n3Ejy/view?usp=share_link" target="_blank" class="home--CV" rel="noreferrer">Clique e veja meu currículo</a>
+            <a href="https://docs.google.com/document/d/1OWjKjex6KLO8Rgi3uZd3z0MqvqYSlPi1SW3lEoaWyKg/edit?usp=sharing" target="_blank" class="home--CV" rel="noreferrer">Clique e veja meu currículo</a>
           </div>
         </section>
         <a href="#about" className="avancar" rel="noreferrer">
