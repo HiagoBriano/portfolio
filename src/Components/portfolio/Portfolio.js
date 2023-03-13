@@ -15,14 +15,14 @@ export default class Portfolio extends Component {
         nome: 'Delivery App',
         fonte: Imagem7,
         feito: '25/07/2022',
-        web: 'http://lb-delivery-app-front-215997098.us-east-1.elb.amazonaws.com/',
+        web: '#',
         codigo: 'https://github.com/HiagoBriano/Delivery_App',
       },
       {
         nome: 'Projeto Todo List',
         fonte: Imagem8,
         feito: '01/07/2022',
-        web: 'http://lb-to-do-list-front-55123292.us-east-1.elb.amazonaws.com/',
+        web: '#',
         codigo: 'https://github.com/HiagoBriano/to-do_list',
       },
       {
