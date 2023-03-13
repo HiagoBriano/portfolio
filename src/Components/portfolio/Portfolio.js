@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
         nome: 'Delivery App',
         fonte: Imagem7,
         feito: '25/07/2022',
-        web: '#',
+        web: 'https://HiagoBriano.github.io/Delivery_App',
         codigo: 'https://github.com/HiagoBriano/Delivery_App',
       },
       {
