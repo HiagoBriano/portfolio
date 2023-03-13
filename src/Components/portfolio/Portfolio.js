@@ -73,10 +73,11 @@ export default class Portfolio extends Component {
                 <a href={codigo} rel="noreferrer" target="_blank">
                   Código do projeto
                 </a>
-
-                <a href={web} rel="noreferrer" target="_blank">
-                  Site na Web
-                </a>
+                {
+                  web !== '#' ?
+                  <a href={web} rel="noreferrer" target="_blank">Site na Web</a> :
+                  <a href={web} rel="noreferrer" className="portfolio--linkImagemOff">Site na Web</a>
+                }
               </div>
             </div>
           ))}
