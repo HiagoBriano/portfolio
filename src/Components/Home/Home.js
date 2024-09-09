@@ -113,7 +113,7 @@ export default class Home extends Component {
               </span>
             </h3>
             <a
-              href="https://drive.google.com/file/d/1KenP6VF1DGP4MJVevrTFwUl9_ymoOR_t/view?usp=sharing"
+              href="/portfolio/hiago_briano.pdf"
               class="home--CV"
               rel="noreferrer"
               target="_blank"
