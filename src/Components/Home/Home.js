@@ -1,12 +1,23 @@
-import { Component } from 'react';
-import './Home.css';
+import { Component } from "react";
+import "./Home.css";
 
 export default class Home extends Component {
   constructor() {
     super();
 
     this.state = {
-      textArray: ['React.js', 'Typescript', 'GoLang', 'GitHub', 'CSS', 'Node.js', 'Docker', 'SQL'],
+      textArray: [
+        "React.js",
+        "Typescript",
+        "GoLang",
+        "GitHub",
+        "CSS",
+        "Node.js",
+        "Docker",
+        "SQL",
+        "Next",
+        "Nestjs",
+      ],
       typingDelay: 200,
       erasingDelay: 100,
       newTextDelay: 2000, // Delay between current and next text
@@ -14,7 +25,7 @@ export default class Home extends Component {
       charIndex: 0,
 
       typing: false,
-      text: '',
+      text: "",
     };
   }
 
@@ -95,17 +106,24 @@ export default class Home extends Component {
               <span className="home-textAnimado">{` ${text}`}</span>
               <span
                 className={
-                  typing ? 'home--cursor home--typing' : 'home--cursor'
+                  typing ? "home--cursor home--typing" : "home--cursor"
                 }
               >
                 &nbsp;
               </span>
             </h3>
-            <a href="https://docs.google.com/document/d/1OWjKjex6KLO8Rgi3uZd3z0MqvqYSlPi1SW3lEoaWyKg/edit?usp=sharing" target="_blank" class="home--CV" rel="noreferrer">Clique e veja meu currículo</a>
+            <a
+              href="/hiago_briano.pdf"
+              class="home--CV"
+              rel="noreferrer"
+              download
+            >
+              Clique e veja meu currículo
+            </a>
           </div>
         </section>
         <a href="#about" className="avancar" rel="noreferrer">
-          AVANÇAR<span className="avancar--seta"> {'>>'} </span>
+          AVANÇAR<span className="avancar--seta"> {">>"} </span>
         </a>
       </>
     );
