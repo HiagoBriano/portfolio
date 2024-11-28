@@ -22,7 +22,7 @@ export default class About extends Component {
             </p>
             <p>
               Tenho conhecimento nas linguagens: JavaScript / TypeScript (React.js, Next.js, Node.js e Nest.js) e em Golang.
-              Além de conhecimento em SQL, Docker, GitHub, HTML, CSS, JavaScript, testes unitários, Redux e Context.
+              Além de conhecimento em SQL, Docker, GitHub, HTML, CSS, JavaScript, testes unitários e Context.
             </p>
             <p>
               Me desafio constantemente, valorizando cada experiência adquirida
