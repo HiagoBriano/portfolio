@@ -1,0 +1,41 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout do código
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Configurar o SSH
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
+
+      # 3. Instalar dependências no servidor, rodar o build e copiar os arquivos
+      - name: Deploy to VPS
+        run: |
+          ssh hiago@62.72.9.87 << 'EOF'
+            # Navegar para a pasta do projeto
+            cd /home/hiago/sites/hiagobriano.online
+
+            # Baixar as últimas alterações
+            git pull origin main
+
+            # Instalar dependências
+            npm install
+
+            # Fazer o build
+            npm run build
+
+            # Reiniciar o Apache (se necessário)
+            sudo systemctl restart apache2
+          EOF
