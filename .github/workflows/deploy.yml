@@ -28,7 +28,7 @@ jobs:
             cd /home/hiago/sites/hiagobriano.online
 
             # Baixar as últimas alterações
-            git pull origin main
+            git pull origin master
 
             # Instalar dependências
             npm install
