@@ -25,7 +25,7 @@ jobs:
       - name: Deploy to VPS
         run: |
           ssh hiago@62.72.9.87 << 'EOF'
-            # Navegar para a pasta do projeto
+            # Navegar para a  pasta do projeto
             cd /home/hiago/sites/hiagobriano.online
 
             # Baixar as últimas alterações
