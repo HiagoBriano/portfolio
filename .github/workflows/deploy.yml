@@ -31,6 +31,9 @@ jobs:
             # Baixar as últimas alterações
             git pull origin master
 
+            # Remover a pasta build antiga
+            rm -rf /home/hiago/sites/hiagobriano.online/build
+
             # Instalar dependências
             npm install
 
